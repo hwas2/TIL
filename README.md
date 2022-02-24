@@ -34,3 +34,17 @@
 
 6. git log
 - 커밋 내역을 조회한다
+
+
+## github 업로드
+1. 저장
+`ctrl+s`
+2. add
+`git add README.md`
+3. commit
+`git commit -m "add README.md"`
+4. push
+`git log --online`
+`git push origin master`
+
+오류시 `git pull origin master`
