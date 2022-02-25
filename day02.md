@@ -32,8 +32,8 @@ git config --global user.email "유저 이메일" # 깃허브에서 사용
   `git config --global --list`
 
 2. git init (U)
-
-   - 맨처음 1회, 절대 홈폴더에서 하지 않는다.
+- 새롭게 로컬에서 시작하는 것 
+- 맨처음 1회, 절대 홈폴더에서 하지 않는다.
 - git init한 폴더의 하위 폴더에서 절대 git init하지 않는다.
    - 터미널에는 (master)라고 표기된다
 
@@ -69,7 +69,7 @@ git config --global user.email "유저 이메일" # 깃허브에서 사용
 
 프로필 - Repositories - main을 master로 수정 - Update
 
-**원격 저장소(Remote Repository) 생성**
+**원격 저장소(Remote Repository)**
 
 *원격 저장소 이용해 다른 사람과 공유, 궁극적으로 협업을 위해*
 
@@ -105,8 +105,6 @@ git config --global user.email "유저 이메일" # 깃허브에서 사용
   `$ git push origin master`
 
 <u>반드시 git add → git commit → git push 의 단계로 업로드!! (로컬 저장소에서 변경 후, 변경 사항을 원격 저장소에 반영하는 형태)</u>
-
-**TIL repository 연결(remote-local)**
 
 
 
@@ -161,6 +159,7 @@ git config --global user.email "유저 이메일" # 깃허브에서 사용
 ### 1. clone
 
 - 원격 저장소를 복제하여 로컬 저장소를 생성
+- ex) 팀프로젝트 시, 조장이 원격저장소를 만들어 공유하게 되면 조원들은 원격저장소를 clone을 해서 사용
 
 **clone은 init된 상태에서  사용하지 않기**, **홈 폴더에서 git clone 사용할 것 **
 
